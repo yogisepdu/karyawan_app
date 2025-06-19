@@ -1,16 +1,53 @@
-# karyawan_app
+# 📱 Karyawan App (Flutter)
 
-A new Flutter project.
+Aplikasi mobile berbasis Flutter untuk mengelola data karyawan menggunakan **SQLite** dan menampilkan repositori dari **GitHub API**. Aplikasi ini mendukung fitur tambah, edit, filter, dan hapus data, serta pencarian berdasarkan nama dan tanggal masuk.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🧩 Fitur Utama
 
-A few resources to get you started if this is your first Flutter project:
+- ✅ Tambah data karyawan (ID, Nama, Tanggal Masuk, Usia)
+- ✏️ Edit dan hapus data
+- 🔍 Filter data berdasarkan nama dan rentang tanggal masuk
+- 💾 Penyimpanan data lokal menggunakan SQLite
+- 🌐 Fetch data dari [GitHub REST API](https://api.github.com)
+- 📱 Antarmuka sederhana dan mobile-friendly
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Teknologi
+
+- [Flutter](https://flutter.dev) 3.x
+- SQLite (via `sqflite`)
+- State Management: `StatefulWidget`
+- API HTTP Client: `http`
+- Platform: Android (juga dapat berjalan di web & desktop dengan keterbatasan)
+
+---
+
+## 🚀 Cara Menjalankan
+
+### 🔧 1. Clone Repo
+
+```bash
+git clone https://github.com/username/karyawan_app.git
+cd karyawan_app
+```
+
+```bash
+flutter pub get
+```
+
+```bash
+flutter run -d android   # atau: chrome, emulator, dll
+```
+
+---
+
+## 👤 Pengembang
+
+- Nama: Yogi Sepdu (ganti jika perlu)
+- Framework: Flutter
+- Lisensi: MIT
+
+---
