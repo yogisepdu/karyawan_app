@@ -46,7 +46,7 @@ flutter run -d android   # atau: chrome, emulator, dll
 
 ## 👤 Pengembang
 
-- Nama: Yogi Sepdu (ganti jika perlu)
+- Nama: Yogi Sepdu Dehiya
 - Framework: Flutter
 - Lisensi: MIT
 
